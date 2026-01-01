@@ -29,12 +29,12 @@
         "migration:revert": "yarn typeorm -d src/database/typeorm-migrations.datasource.ts migration:revert"
     },
     "dependencies": {
-        "@nestjs/common": "11.1.9",
+        "@nestjs/common": "11.1.11",
         "@nestjs/config": "4.0.2",
-        "@nestjs/core": "11.1.9",
-        "@nestjs/jwt": "11.0.1",
+        "@nestjs/core": "11.1.11",
+        "@nestjs/jwt": "11.0.2",
         "@nestjs/passport": "11.0.5",
-        "@nestjs/platform-express": "11.1.9",
+        "@nestjs/platform-express": "11.1.11",
         "@nestjs/swagger": "11.2.3",
         "@nestjs/terminus": "11.0.0",
         "@nestjs/typeorm": "11.0.0",
@@ -44,14 +44,14 @@
         "date-fns": "4.1.0",
         "helmet": "8.1.0",
         "morgan": "1.10.1",
-        "mysql2": "3.15.3",
+        "mysql2": "3.16.0",
         "passport": "0.7.0",
         "passport-jwt": "4.0.1",
         "passport-local": "1.0.0",
         "ramda": "0.32.0",
         "reflect-metadata": "0.2.2",
         "rxjs": "7.8.2",
-        "typeorm": "0.3.27"
+        "typeorm": "0.3.28"
     },
     "devDependencies": {
         "@commitlint/cli": "20.1.0",
